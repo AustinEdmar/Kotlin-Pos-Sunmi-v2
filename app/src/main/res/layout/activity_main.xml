@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUNMI Printer Test"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnTestPrint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imprimir Teste"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onTestPrintClick" />
+
+    <Button
+        android:id="@+id/btnPrintReceipt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imprimir Recibo"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onPrintReceiptClick" />
+
+    <Button
+        android:id="@+id/btnCheckStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verificar Status"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onCheckStatusClick" />
+
+    <Button
+        android:id="@+id/btnPrintImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imprimir com Imagem"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onPrintImageClick" />
+
+    <Button
+        android:id="@+id/btnPrintQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imprimir QR Code"
+        android:textSize="16sp"
+        android:onClick="onPrintQRClick" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Desconectado"
+        android:textSize="14sp"
+        android:layout_marginTop="32dp"
+        android:textColor="#666666" />
+
+</LinearLayout>
